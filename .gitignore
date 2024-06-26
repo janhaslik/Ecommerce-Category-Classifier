@@ -1,0 +1,35 @@
+# Byte-compiled / optimized Python files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+
+# IDE / Editor specific files
+.idea/
+.vscode/
+
+# build
+static/
+
+# model
+model.pt
+
+# Compiled Python modules
+*.pyc
+*.pyo
+*.pyd
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Project-specific files
+model.pt  # Assuming this is your saved model file
+*.csv     # Assuming CSV files are part of your project and can be regenerated
+
+# Miscellaneous
+.DS_Store   # macOS specific file
+

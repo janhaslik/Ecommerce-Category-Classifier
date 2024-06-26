@@ -1,0 +1,49 @@
+body {
+  overflow: hidden;
+  margin: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+textarea {
+  resize: none;
+}
+
+.btn {
+  background-color: black;
+  font-size: 15px;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  outline: none;
+  margin-top: 0.5em;
+  padding: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.btn:hover {
+  background-color: #333;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.nav {
+  display: flex;
+  height: 2rem;
+  box-shadow: 1px 1px black;
+  padding: 0.5rem;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.nav > * {
+  padding: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  transition: 0.1s linear;
+}
+
+.nav > *:hover {
+  color: goldenrod;
+  transform: scale(1.1) rotate(2deg);
+  cursor: pointer;
+}
