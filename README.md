@@ -8,10 +8,8 @@ The E-commerce Category Classifier leverages the power of BERT (Bidirectional En
 
 ## Features
 
-- **Accurate Classification**: Utilizes a fine-tuned BERT model for high accuracy.
-- **Easy Integration**: Simple API for integrating with existing e-commerce platforms.
-- **Scalable**: Can handle a large number of product descriptions efficiently.
-- **Customizable**: Easily adaptable to different e-commerce platforms and categories.
+- **Classification**
+- **Fine-Tuning**: Correct false classifications.
 
 ## Dataset
 
